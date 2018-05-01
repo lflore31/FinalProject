@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainScreen">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="151dp"
+        android:layout_weight="1"
+        android:lineSpacingExtra="36sp"
+        android:text="React"
+        android:textAllCaps="true"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="100sp"
+        android:textStyle="bold"
+        android:typeface="normal" />
+
+    <Button
+        android:id="@+id/StartButton"
+        android:layout_width="163dp"
+        android:layout_height="66dp"
+        android:layout_weight="1"
+        android:text="Start" />
+
+    <TextView
+        android:id="@+id/EndPoints"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Points: "
+        android:textAppearance="@style/TextAppearance.AppCompat.Tooltip"
+        android:textSize="33sp"
+        android:visibility="invisible" />
+
+</LinearLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity14">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/Points"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:text="TextView"
+            android:textAppearance="@style/TextAppearance.AppCompat.Tooltip"
+            android:textSize="33sp" />
+
+        <TextView
+            android:id="@+id/Lifes"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:text="TextView"
+            android:textAppearance="@style/TextAppearance.AppCompat.Tooltip"
+            android:textSize="33sp" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="307dp"
+        android:layout_weight="1"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_owl" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/Coffee"
+            android:layout_width="113dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Coffee" />
+
+        <Button
+            android:id="@+id/Owl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Owl" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/Timer14"
+        android:layout_width="404dp"
+        android:layout_height="34dp"
+        android:layout_weight="1"
+        android:text="       00.00       "
+        android:textColor="@android:color/black"
+        android:textSize="60sp" />
+</LinearLayout>
